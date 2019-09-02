@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-title>
+    {{ data.item }}
+  </mat-card-title>
+  <img mat-card-image [src]="data.url" alt="" />
+  <mat-card-content>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis esse
+      incidunt doloremque amet.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button class="custom" mat-button (click)="openDialog()">
+      View packaging details
+    </button>
+  </mat-card-actions>
+</mat-card>

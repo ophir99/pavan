@@ -1,0 +1,12 @@
+.con {
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-around;
+}
+
+.con > * {
+  flex-basis: 250px;
+  margin: 10px 0;
+  padding: 10px;
+  align-self: flex-start;
+}

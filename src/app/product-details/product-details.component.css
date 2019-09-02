@@ -1,0 +1,27 @@
+fieldset {
+  border: 1px solid rgb(230, 230, 230);
+  margin: 10px auto;
+}
+
+legend {
+  background-color: var(--secondary);
+  padding: 10px;
+  color: #fff;
+}
+
+tr:first-child td:first-child {
+  width: 75%;
+}
+
+tr td {
+  color: rgb(80, 80, 80);
+}
+
+tr:first-child td {
+  color: var(--primary) !important;
+}
+
+.info,
+.notes {
+  color: rgb(155, 155, 155);
+}

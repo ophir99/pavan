@@ -1,0 +1,26 @@
+ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+ul li:last-child a {
+  color: var(--secondary);
+}
+
+.mat-toolbar {
+  background-color: #fff;
+}
+
+h3 {
+  color: var(--primary);
+  font-size: 64px;
+  font-weight: 100;
+  font-family: "Dancing Script", cursive;
+}

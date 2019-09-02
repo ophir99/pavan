@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+}
+
+.i-con {
+  width: 85%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  color: var(--primary);
+}
+
+.sub-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sub-menu ul li {
+  list-style: none;
+
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(147, 147, 147);
+
+  color: var(--primary);
+  background-color: rgb(232, 232, 232);
+}
+.sub-menu ul li.active {
+  background-color: rgb(29, 28, 28);
+  color: var(--secondary);
+}
+.sub-menu ul li:first-child {
+  margin-left: 0;
+}

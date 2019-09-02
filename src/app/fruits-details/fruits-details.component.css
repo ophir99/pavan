@@ -1,0 +1,23 @@
+ul {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  flex-basis: 50%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+ul li h2 {
+  color: var(--primary);
+}
+
+ul li p {
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+}

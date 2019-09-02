@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary: #00842b;
+  --secondary: orange;
+  --gray: rgb(121, 120, 118);
+}
+body {
+  margin: 0;
+  background-color: rgb(252, 243, 231);
+  font-family: "Lato", sans-serif !important;
+}
+
+.s-container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.j-c-s {
+  justify-content: flex-start;
+}
+
+.w-85 {
+  margin: auto;
+  width: 85%;
+}
+.h-100 {
+  height: 100%;
+}
+
+.fd-r-r {
+  flex-direction: row-reverse;
+}
+
+.p-r-20 {
+  padding-right: 20px !important;
+}
+.p-l-20 {
+  padding-left: 20px !important;
+}
+
+.mat-dialog-container {
+}
