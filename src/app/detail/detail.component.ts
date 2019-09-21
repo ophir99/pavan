@@ -10,7 +10,7 @@ import { of } from "rxjs";
 })
 export class DetailComponent implements OnInit {
   data = [];
-  items: string[] = [];
+  items: any[] = [];
 
   constructor(
     private dataService: ProductDetailsService,
@@ -32,7 +32,7 @@ export class DetailComponent implements OnInit {
               (this.items = [...this.dataService.fruits, this.dataService.veg]))
         )
       )
-      .subscribe(data => {
+      .subscribe((data: any[]) => {
         this.data = data;
       });
   }
