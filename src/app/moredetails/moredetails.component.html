@@ -1,0 +1,10 @@
+<div class="con flex">
+  <ul>
+    <li *ngFor="let item of data">
+      <h3>
+        {{ item.item }}
+      </h3>
+      <app-prodetails [data]="item"></app-prodetails>
+    </li>
+  </ul>
+</div>

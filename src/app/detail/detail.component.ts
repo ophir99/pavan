@@ -10,6 +10,8 @@ import { of } from "rxjs";
 })
 export class DetailComponent implements OnInit {
   data = [];
+  items: string[] = [];
+
   constructor(
     private dataService: ProductDetailsService,
     private route: ActivatedRoute
@@ -24,12 +26,16 @@ export class DetailComponent implements OnInit {
       .pipe(
         map(param =>
           param.name !== "all"
-            ? this.dataService.data.filter(el => el.type === param.name)
-            : this.dataService.data
+            ? (this.dataService.data.filter(el => el.type === param.name),
+              this.putDetails())
+            : (this.dataService.data,
+              (this.items = [...this.dataService.fruits, this.dataService.veg]))
         )
       )
       .subscribe(data => {
         this.data = data;
       });
   }
+
+  putDetails() {}
 }

@@ -14,6 +14,9 @@ import { DetailComponent } from "./detail/detail.component";
 import { CompanyComponent } from "./company/company.component";
 import { ProductComponent } from "./product/product.component";
 import { ProductDetailsComponent } from "./product-details/product-details.component";
+import { MoredetailsComponent } from './moredetails/moredetails.component';
+import { ProdetailsComponent } from './prodetails/prodetails.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ProductDetailsComponent } from "./product-details/product-details.compo
     DetailComponent,
     CompanyComponent,
     ProductComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    MoredetailsComponent,
+    ProdetailsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

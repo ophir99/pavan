@@ -244,5 +244,56 @@ export class ProductDetailsService {
       ]
     }
   ];
-  constructor() {}
+  fruits: string[];
+  veg: string[];
+  constructor() {
+    this.fruits = this.returnFruits();
+    this.veg = this.returnVeg();
+  }
+
+  returnFruits = () => [
+    "Mangoes",
+    "Grapes",
+    "Pomegranates",
+    "Sapota",
+    "Coconut",
+    "Papaya",
+    "Guava",
+    "Aonla"
+  ];
+
+  returnVeg = () => [
+    "Ginger",
+    "Arvi",
+    "Okra",
+    "Cowpea",
+    "Curry Leaves",
+    "Drumstick",
+    "Bottle Gourd",
+    "Brinjal",
+    "Beans",
+    "Carrot",
+    "Sponge Gourd",
+    "Cluster Bean",
+    "Bird Lime",
+    "Turmeric",
+    "Purple Yam",
+    "Bitter Gourd",
+    "Cucumber",
+    "Ash Gourd",
+    "Snake Gourd",
+    "Fenugreek",
+    "Hot Pepper",
+    "Onion",
+    "Spinach",
+    "Pointed Gourd",
+    "Cabbage",
+    "Cauliflower",
+    "Winter/Summer squash",
+    "Bell Pepper",
+    "Elephant Foot yam",
+    "Tomato",
+    "Indian Round Gourd",
+    "Ivy Gourd"
+  ];
 }

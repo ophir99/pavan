@@ -4,6 +4,8 @@ import { HomeComponent } from "./home/home.component";
 import { ProductsComponent } from "./products/products.component";
 import { DetailComponent } from "./detail/detail.component";
 import { CompanyComponent } from "./company/company.component";
+import { MoredetailsComponent } from "./moredetails/moredetails.component";
+import { ContactComponent } from "./contact/contact.component";
 
 const routes: Routes = [
   {
@@ -30,8 +32,16 @@ const routes: Routes = [
     component: DetailComponent
   },
   {
+    path: "details",
+    component: MoredetailsComponent
+  },
+  {
     path: "ourcompany",
     component: CompanyComponent
+  },
+  {
+    path: "contact",
+    component: ContactComponent
   }
 ];
 

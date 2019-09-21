@@ -1,0 +1,26 @@
+<fieldset *ngFor="let packagingType of packagingTypes; let i = index">
+  <legend>Packaging Type {{ i + 1 }}</legend>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          Corrugated Fibreboard Box
+        </td>
+        <td>
+          Capacity: 6 Nos
+        </td>
+      </tr>
+      <tr>
+        <td>
+          230 * 200* 100
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+<p *ngFor="let in of info" class="info">
+  {{ in }}
+</p>
+<p *ngFor="let note of notes" class="notes">
+  {{ note }}
+</p>

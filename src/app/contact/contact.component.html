@@ -1,0 +1,53 @@
+<div class="con flex">
+  <fieldset>
+    <legend>
+      <h2>
+        Write to us
+      </h2>
+    </legend>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Your name" />
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Your email" />
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Subject" />
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field>
+            <textarea
+              placeholder="Your message"
+              matInput
+              name=""
+              id=""
+              cols="18"
+              rows="10"
+            ></textarea>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button mat-raised-button color="accent" (click)="sendMessage()">
+            Send Message
+          </button>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+</div>
